@@ -7,8 +7,8 @@ require 'dq_slime_searcher'
 user_agent = "dq_slime_searcher/#{DqSlimeSearcher::VERSION} (https://github.com/ryoo14/dq_slime_searcher)"
 puts user_agent
 
-BASE_URI = 'https://dragon-quest.org'
-slime_family_doc = Nokogiri::HTML(URI.open(BASE_URI + '/wiki/slime_family',
+BASE_URI = 'https://dragon-quest.org/wiki'
+slime_family_doc = Nokogiri::HTML(URI.open(BASE_URI + '/slime_family',
                                           'User-Agent' => user_agent))
 
 slime_uri_map = {}
