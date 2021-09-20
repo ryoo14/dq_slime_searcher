@@ -18,6 +18,7 @@ module DqSlimeSearcher
       result = slime_data.slime_hash_en[slime]
     end
 
+    # raise sitai dake
     if result.nil?
       raise DqSlimeSearcher::NotFoundError, 'the specified slime was not found.'
     end
