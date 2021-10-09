@@ -15,7 +15,7 @@ module DqSlimeSearcher
         ['bad egg'                 , 'タマゴロン'],
         ['behemoth slime'          , 'もりもりスライム'],
         ['beshemoth slime'         , 'もりもりベス'],
-        ['box slime'               , 'ボック ススライム'],
+        ['box slime'               , 'ボックススライム'],
         ['bubble slime'            , 'バブルスライム'],
         ['crème caraslime'         , 'スライムプディング'],
         ['cureslime'               , 'ベホマスライム'],
