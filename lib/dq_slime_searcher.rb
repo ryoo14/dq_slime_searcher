@@ -15,6 +15,7 @@ module DqSlimeSearcher
       result = slime_data.slime_hash_jp[slime]
     # If not, search from English hash.
     else
+      slime.downcase!
       result = slime_data.slime_hash_en[slime]
     end
 
